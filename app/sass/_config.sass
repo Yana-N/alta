@@ -1,0 +1,51 @@
+// USER VARIABLES SECTION
+
+$accent: #ED8000 // Accent Color
+$fontsize: 16px // Body Font Size
+$textcolor: #333 // Text Color
+$system: -apple-system, BlinkMacSystemFont, Arial, sans-serif // System Font Family
+$montserrat: Montserrat, sans-serif // Roboto Font Family
+
+// IMPORT SECTION
+
+@import "node_modules/bootstrap-reboot/index.scss"  // Bootstrap Reboot collection
+
+// FONTS LOAD SECTION
+
+@mixin font($fname, $fstyle, $fweight, $furl)
+	@font-face
+		font-family: $fname
+		font-style: $fstyle
+		font-weight: $fweight
+		// font-display: swap // Uncomment to initially display system fonts
+		src: local($fname), url($furl) format('woff2')
+
+@include font('Montserrat', normal, 400, '../fonts/Montserrat-Regular.woff2')
+@include font('Montserrat', normal, 500, '../fonts/Montserrat-Medium.woff2')
+@include font('Montserrat', italic, 700, '../fonts/Montserrat-SemiBold.woff2')
+@include font('Charterc', italic, 400, '../fonts/charterc-italic-webfont.woff2')
+
+// GENERAL DOCUMENT STYLES
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+input, textarea
+	outline: none
+	&:focus:required:invalid
+		border-color: tomato
+	&:required:valid
+		border-color: green
+
+body
+	font-family: $montserrat
+	font-size: $fontsize
+	min-width: 320px
+	position: relative
+	line-height: 2
+	overflow-x: hidden
+	color: $textcolor
