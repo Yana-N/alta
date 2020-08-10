@@ -11,8 +11,108 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30caf9a9-981c-4062-898f-9b738d3a93a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Montserrat-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/src/Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/front-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/aid-kid/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/aid-kid/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/aid-kid/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/aid-kid/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/aid-kid/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/aid-kid/Rectangle 23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/aid-kid/Rectangle 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/aid-kid/Rectangle 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/aid-kid/Rectangle 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/aid-kid/aid-kid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/director.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/director.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/docs/doc1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/docs/doc2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/icons/cellphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/icons/doc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/icons/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/icons/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/icons/inst.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/icons/map-marker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/icons/vk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/icons/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/kid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/news-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/partners/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/partners/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/partners/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/partners/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/partners/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/slider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/slider2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/slider3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/aid-kid/Rectangle 23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/aid-kid/Rectangle 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/aid-kid/Rectangle 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/aid-kid/Rectangle 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/aid-kid/aid-kid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/director.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/director.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/docs/doc1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/docs/doc2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/icons/cellphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/icons/doc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/icons/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/icons/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/icons/inst.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/icons/map-marker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/icons/vk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/icons/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/kid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/news-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/partners/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/partners/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/partners/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/partners/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/partners/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/slider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/slider2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/slider3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/kid-aid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/partners.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_about.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_aid.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_article.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_common.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_contacts.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_content.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_fix-slick.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_footer.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_help.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_kid.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_navbar.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_news.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_partners.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_profile.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_progressbar.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_section.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_sharing.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_sms.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_config.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_config.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,16 +126,30 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1ffcnLgC4OysQ0NEQdCAvTVaEwR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/@fancyapps/fancybox/dist" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\linsy\Desktop\projects\alta\node_modules\@fancyapps\fancybox\dist" />
+      <recent name="C:\Users\linsy\Desktop\projects\alta\app" />
+      <recent name="C:\Users\linsy\Desktop\projects\alta\app\images\dest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\linsy\Desktop\projects\alta\node_modules" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -45,7 +159,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596612754562</updated>
-      <workItem from="1596612755822" duration="2674000" />
+      <workItem from="1596612755822" duration="31862000" />
+      <workItem from="1596701929044" duration="19503000" />
+      <workItem from="1596786607467" duration="25649000" />
+      <workItem from="1596962115942" duration="1801000" />
+      <workItem from="1597042800557" duration="7318000" />
+      <workItem from="1597050824934" duration="43000" />
     </task>
     <servers />
   </component>
@@ -62,15 +181,31 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="664" y="296" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596614319092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="296" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596614319092" />
+    <state x="624" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596621684821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596621684821" />
     <state x="351" y="78" key="SettingsEditor" timestamp="1596615189878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="351" y="78" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596615189878" />
+    <state x="532" y="237" key="run.anything.popup" timestamp="1596806155863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596806155863" />
+    <state x="539" y="5" key="search.everywhere.popup" timestamp="1597044968438">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597044968438" />
   </component>
 </project>

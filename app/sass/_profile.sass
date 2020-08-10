@@ -1,0 +1,72 @@
+.profile
+
+  &__wrapper
+    display: flex
+
+  &__photo
+    margin-right: 20px
+
+  &__info
+    display: flex
+    flex-direction: column
+    max-width: 500px
+
+    &-name
+      font-size: 30px
+      line-height: 1
+      font-weight: 600
+      margin-bottom: 15px
+
+    &-city
+      font-weight: 600
+      margin-bottom: 15px
+
+    &-diagnose
+      margin-bottom: 15px
+
+      span
+        font-weight: 600
+
+  &__docs
+    margin-bottom: 25px
+
+    &-title
+      font-weight: 600
+      margin-bottom: 5px
+
+    img
+      width: 45px
+      height: 45px
+
+  &__progressbar
+    width: 100%
+    margin-right: 20px
+
+  &__sum
+    margin-bottom: 20px
+    span
+      font-weight: 600
+
+@media (max-width: 1200px)
+  .profile
+    &__donation
+      display: flex
+      align-items: flex-start
+      justify-content: space-between
+
+@media (max-width: 992px)
+  .profile
+    &__wrapper
+      flex-direction: column
+
+    &__info
+      max-width: 500px
+
+      &-name
+        font-size: 24px
+
+    &__photo
+      margin: 0 0 20px 0
+
+    &__donation
+      flex-direction: column

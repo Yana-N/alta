@@ -1,14 +1,32 @@
-// USER VARIABLES SECTION
+$white: #fff
+$black: #333
+$green: #19AF0C
+$link: #0069EC
+$orange: #ED8000
+$yellow: #FFB800
+$gray: #ccc
+$light-gray: #DCDCDC
+$orange-gradient: linear-gradient(180deg, #FFB800 0%, #FF9458 100%)
+$blue-gradient: linear-gradient(180deg, #0085FF 0%, #0049D6 100%)
+$fontsize: 16px
+$system: -apple-system, BlinkMacSystemFont, Arial, sans-serif
+$montserrat: Montserrat, sans-serif
 
-$accent: #ED8000 // Accent Color
-$fontsize: 16px // Body Font Size
-$textcolor: #333 // Text Color
-$system: -apple-system, BlinkMacSystemFont, Arial, sans-serif // System Font Family
-$montserrat: Montserrat, sans-serif // Roboto Font Family
+
+//fix css in sass bug
+@function max($numbers...)
+	@return m#{a}x(#{$numbers})
+
+@function min($numbers...)
+	@return m#{i}n(#{$numbers})
+//fix css in sass bug
 
 // IMPORT SECTION
 
-@import "node_modules/bootstrap-reboot/index.scss"  // Bootstrap Reboot collection
+@import "node_modules/bootstrap-reboot/index.scss"
+@import "node_modules/slick-carousel/slick/slick.scss"
+@import "node_modules/slick-carousel/slick/slick-theme.scss"
+@import "node_modules/@fancyapps/fancybox/dist/jquery.fancybox"
 
 // FONTS LOAD SECTION
 
@@ -17,21 +35,23 @@ $montserrat: Montserrat, sans-serif // Roboto Font Family
 		font-family: $fname
 		font-style: $fstyle
 		font-weight: $fweight
-		// font-display: swap // Uncomment to initially display system fonts
 		src: local($fname), url($furl) format('woff2')
 
 @include font('Montserrat', normal, 400, '../fonts/Montserrat-Regular.woff2')
-@include font('Montserrat', normal, 500, '../fonts/Montserrat-Medium.woff2')
-@include font('Montserrat', italic, 700, '../fonts/Montserrat-SemiBold.woff2')
+@include font('Montserrat', medium, 500, '../fonts/Montserrat-Medium.woff2')
+@include font('Montserrat', bold, 700, '../fonts/Montserrat-SemiBold.woff2')
+@include font('Montserrat', heavy, 900, '../fonts/Montserrat-Black.woff2')
 @include font('Charterc', italic, 400, '../fonts/charterc-italic-webfont.woff2')
 
 // GENERAL DOCUMENT STYLES
+*
+	box-sizing: border-box
 
 ::placeholder
 	color: #666
 
 ::selection
-	background-color: $accent
+	background-color: $orange
 	color: #fff
 
 input, textarea
@@ -46,6 +66,6 @@ body
 	font-size: $fontsize
 	min-width: 320px
 	position: relative
-	line-height: 2
+	line-height: 1.5
 	overflow-x: hidden
-	color: $textcolor
+	color: $black

@@ -1,0 +1,149 @@
+.navbar
+  position: sticky
+  top: 0
+  z-index: 100
+  background-color: $white
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.07)
+
+  &__wrapper
+    position: relative
+    height: 80px
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  &__block
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 100%
+    font-weight: 500
+    background-color: $white
+
+  &__logo
+    margin-right: 20px
+
+  &__menu
+    flex: 0 1 auto
+    ul
+      margin: 0
+      padding: 0
+      list-style: none
+      max-width: 415px
+      display: flex
+      align-items: center
+      flex-wrap: wrap
+
+      li
+
+        a
+          color: $black
+          font-weight: 600
+          padding: 0 8px
+
+          &:hover
+            color: $gray
+
+
+  &__info
+    display: flex
+    flex-direction: column
+
+    &-mail, &-tel
+      color: $black
+
+    &-mail
+      border-bottom: 1px solid
+
+  &__sms
+    max-width: 130px
+
+    &-text
+      font-weight: 500
+      border-bottom: 2px dashed $blue
+      background: $blue-gradient
+      -webkit-background-clip: text
+      -webkit-text-fill-color: transparent
+
+    span
+      font-weight: 700
+
+  &__toggler
+    position: relative
+    display: none
+    flex-direction: column
+    justify-content: space-between
+    width: 40px
+    height: 25px
+    border: none
+    background: transparent
+    transition: all .3s
+
+    &:focus, &:active
+      outline: none
+
+    span
+      width: 100%
+      height: 2px
+      background-color: $black
+      transition: all .3s
+
+    &.opened
+      span
+        position: absolute
+        width: 70%
+
+      span:first-child
+        transform: rotate(45deg)
+        top: 9px
+
+      span:nth-child(2)
+        display: none
+
+      span:last-child
+        transform: rotate(-45deg)
+        bottom: 14px
+
+
+@media (max-width: 1200px)
+  .navbar
+
+    &__wrapper
+      height: 50px
+
+    &__logo img
+      max-width: 120px
+
+    &__toggler
+      display: flex
+
+    &__block
+      position: absolute
+      top: 50px
+      max-width: 400px
+      height: 100vh
+      flex-direction: column
+      justify-content: flex-start
+      align-items: flex-start
+      padding: 40px
+      transform: translateX(-300%)
+      transition: all .3s
+
+    &__menu
+      margin-bottom: 20px
+
+      ul
+        flex-direction: column
+        align-items: start
+
+        li
+          margin: 10px 0
+
+          a
+            padding: 20px 0
+
+    &__info, &__sms
+      margin-bottom: 20px
+
+    &__block.active
+      transform: translateX(0)

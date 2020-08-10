@@ -1,0 +1,45 @@
+.help
+  display: flex
+  justify-content: space-between
+
+  &__donation
+    flex-basis: 50%
+
+  &__sharing
+    flex-basis: 50%
+
+  &__img
+    margin-top: 45px
+    text-align: center
+
+    img
+      animation: 3s heartbeat infinite ease-in-out
+
+@keyframes heartbeat
+  0%
+    transform: scale(0.85)
+
+  20%
+    transform: scale(1)
+
+  40%
+    transform: scale(0.85)
+
+  60%
+    transform: scale(1)
+
+  80%
+    transform: scale(0.85)
+
+  100%
+    transform: scale(0.85)
+
+@media (max-width: 992px)
+  .help
+    flex-direction: column
+
+    &__donation
+      margin-bottom: 30px
+
+    &__img
+      margin-top: 15px

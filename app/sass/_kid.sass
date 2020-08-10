@@ -1,0 +1,74 @@
+.kid
+  display: flex
+  flex-wrap: wrap
+
+  &__block
+    flex-basis: 33%
+    padding: 0 10px
+    margin-bottom: 55px
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    text-align: left
+
+    span
+      font-weight: 700
+
+  &__img
+    margin-bottom: 15px
+
+  &__info
+    margin-bottom: 15px
+
+    &-name
+      font-weight: 700
+
+  &__donation
+    margin-bottom: 15px
+    width: 100%
+
+  &__progressbar
+    margin-bottom: 10px
+    width: 100%
+    height: 15px
+    background: $light-gray
+
+    &-active
+      background: $blue-gradient
+      width: 70%
+      height: 15px
+
+  &__links
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 100%
+
+  &__story
+    font-weight: 500
+    color: $orange
+    border-bottom: 1px solid
+
+  &__more
+    display: flex
+    justify-content: center
+
+@media (max-width: 1200px)
+  .kid
+    &__btn
+      font-size: 14px
+      padding: 15px 35px
+    &__story
+      font-size: 14px
+
+@media (max-width: 992px)
+  .kid
+    &__block
+      flex-basis: 50%
+
+@media (max-width: 767px)
+  .kid
+    justify-content: center
+    &__block
+      flex-basis: 100%
+      max-width: 370px

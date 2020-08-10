@@ -1,0 +1,50 @@
+.news
+  display: flex
+  flex-wrap: wrap
+
+  &__block
+    flex-basis: 25%
+    padding: 10px
+    margin-bottom: 50px
+    font-size: 15px
+    color: $black
+
+  &__img
+    margin-bottom: 15px
+
+  &__title
+    margin-bottom: 10px
+    font-size: 15px
+
+  &__description
+    margin-bottom: 10px
+    max-width: 290px
+
+  &__date
+    color: $gray
+
+  &__more
+    display: flex
+    justify-content: center
+
+@media (max-width: 1200px)
+  .news
+    justify-content: center
+
+    &__block
+      flex-basis: 50%
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+
+@media (max-width: 960px)
+  .news
+    &__block
+      font-size: 14px
+
+@media (max-width: 767px)
+  .news
+    &__block
+      flex-basis: 100%
+      margin-bottom: 0

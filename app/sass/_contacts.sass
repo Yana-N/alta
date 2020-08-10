@@ -1,0 +1,27 @@
+.contacts
+
+  &__info
+    margin-bottom: 40px
+    display: flex
+    justify-content: space-around
+    font-weight: 500
+
+    img
+      width: 38px
+      height: 38px
+
+    &-phone, &-mail
+      a
+        color: $black
+
+  &__map
+
+@media (max-width: 992px)
+  .contacts
+    &__info
+      margin: 40px auto
+      flex-direction: column
+      max-width: 310px
+
+      &-phone, &-mail
+        margin-bottom: 10px

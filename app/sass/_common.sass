@@ -1,0 +1,55 @@
+.container
+  margin: 0 auto
+  padding: 0 15px
+  max-width: 1200px
+  width: 100%
+
+@media (max-width: 1200px)
+  .container
+    max-width: 970px
+
+@media (max-width: 992px)
+  .container
+    max-width: 750px
+
+@media (max-width: 767px)
+  .container
+    max-width: none
+
+img
+  max-width: 100%
+
+a
+  text-decoration: none
+  transition: all .3s
+
+  &:hover
+    opacity: .8
+    text-decoration: none
+    color: $gray
+
+.btn
+  display: inline-block
+  padding: 15px 40px
+  background: transparent
+  color: $white
+  font-weight: 700
+  transition: all .3s
+  cursor: pointer
+
+  &:hover
+    opacity: .8
+    color: $white
+
+  &--primary
+    background: $orange-gradient
+
+  &--secondary
+    background: $blue-gradient
+
+  &--outline
+    border: 2px solid $blue
+    color: $blue
+
+    &:hover
+      color: $blue

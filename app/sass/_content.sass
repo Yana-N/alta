@@ -1,0 +1,58 @@
+.content
+  color: $black
+
+  h1, h2, h3, h4, h5, h6
+    font-weight: bold
+
+  h1
+    font-size: 28px
+
+  h2
+    font-size: 26px
+
+  h3
+    font-size: 24px
+
+  h4
+    font-size: 22px
+
+  h5
+    font-size: 20px
+
+  h6
+    font-size: 18px
+
+  p
+    font-size: 16px
+    line-height: 2
+
+    &:last-child
+      margin-bottom: 0
+
+  blockquote
+    position: relative
+    display: flex
+    flex-direction: column
+    margin-bottom: 20px
+    padding: 0 20px
+
+    p
+      margin-bottom: 5px
+
+    p, footer, cite
+      line-height: 1.5
+      font-family: 'Charterc', serif
+      font-size: 18px
+      font-style: italic
+
+    footer, cite
+      color: $gray
+
+    &::before
+      content: ''
+      position: absolute
+      top: 5px
+      left: 0
+      width: 5px
+      height: 100%
+      background: linear-gradient(180deg, #0085FF 32.81%, rgba(255, 255, 255, 0.42) 100%)
