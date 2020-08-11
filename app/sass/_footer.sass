@@ -27,11 +27,20 @@
         width: 38px
         height: 38px
 
-@media (max-width: 992px)
-  .footer__wrapper
-    flex-direction: column
+  &__dev
+    color: $white
+    font-size: 12px
 
-  .footer__menu
-    margin-bottom: 15px
-    flex-wrap: wrap
-    justify-content: center
+@media (max-width: 1200px)
+  .footer
+
+    &__wrapper
+      flex-direction: column
+
+    &__menu
+      margin-bottom: 15px
+      flex-wrap: wrap
+      justify-content: center
+
+    &__dev
+      margin-top: 15px
