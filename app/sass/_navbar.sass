@@ -21,10 +21,16 @@
     background-color: $white
 
   &__logo
+    position: relative
+    z-index: 100
     margin-right: 20px
+
+    img
+      width: 100%
 
   &__menu
     flex: 0 1 auto
+
     ul
       margin: 0
       padding: 0
@@ -70,6 +76,7 @@
 
   &__toggler
     position: relative
+    z-index: 100
     display: none
     flex-direction: column
     justify-content: space-between
@@ -111,6 +118,16 @@
     &__wrapper
       height: 50px
 
+      &::before
+        position: absolute
+        content: ''
+        top: 0
+        left: 0
+        width: 100%
+        height: 50px
+        background-color: $white
+        z-index: 50
+
     &__logo img
       max-width: 120px
 
@@ -118,19 +135,20 @@
       display: flex
 
     &__block
-      position: absolute
-      top: 50px
-      max-width: 400px
-      height: 100vh
+      position: fixed
+      top: 0
+      left: 0
+      height: 100%
+      overflow-y: auto
       flex-direction: column
       justify-content: flex-start
       align-items: flex-start
       padding: 40px
-      transform: translateX(-300%)
+      transform: translateX(-100%)
       transition: all .3s
 
     &__menu
-      margin-bottom: 20px
+      margin: 20px 0
 
       ul
         flex-direction: column
