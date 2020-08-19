@@ -11,15 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30caf9a9-981c-4062-898f-9b738d3a93a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/sass/_report.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/front-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_about.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_about.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_common.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_common.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_kid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_kid.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_section.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_section.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_config.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_config.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +75,8 @@
       <workItem from="1597135195960" duration="2188000" />
       <workItem from="1597501640928" duration="4642000" />
       <workItem from="1597762250869" duration="1001000" />
-      <workItem from="1597827001102" duration="2831000" />
+      <workItem from="1597827001102" duration="3186000" />
+      <workItem from="1597848471891" duration="136000" />
     </task>
     <servers />
   </component>
@@ -120,9 +115,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="532" y="237" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596806155863" />
-    <state x="539" y="5" key="search.everywhere.popup" timestamp="1597044968438">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1597848580940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597044968438" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597848580940" />
   </component>
 </project>
