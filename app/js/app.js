@@ -17,11 +17,23 @@ document.addEventListener('DOMContentLoaded', function () {
 	// front-page slider
 	$('.slider').slick({
 		dots: true,
-		arrows: false,
+		arrows: true,
+		prevArrow: '<button type="button" class="slick-prev"><img src="https://altafond.com/wp-content/themes/altafond/assets/images/dest/prev.svg" alt=""></button>',
+		nextArrow: '<button type="button" class="slick-next"><img src="https://altafond.com/wp-content/themes/altafond/assets/images/dest/next.svg" alt=""></button>',
 		infinite: true,
-		speed: 300,
+		autoplay: true,
+		autoplaySpeed: 20000,
 		slidesToShow: 1,
 		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+					arrows: false,
+					dots: false,
+				}
+			},
+		]
 	})
 	// end front-page slider
 
