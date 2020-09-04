@@ -13,8 +13,7 @@
     <list default="true" id="30caf9a9-981c-4062-898f-9b738d3a93a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_kid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_kid.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_news.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_news.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_navbar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_navbar.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,8 @@
       <workItem from="1597827001102" duration="3186000" />
       <workItem from="1597848471891" duration="458000" />
       <workItem from="1598470158297" duration="9000" />
-      <workItem from="1598520853625" duration="549000" />
+      <workItem from="1598520853625" duration="807000" />
+      <workItem from="1599216218395" duration="625000" />
     </task>
     <servers />
   </component>
