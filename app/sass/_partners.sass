@@ -5,7 +5,7 @@
     flex-wrap: wrap
 
   &__block
-    flex-basis: 50%
+    flex-basis: 25%
     padding: 0 20px
     margin-bottom: 40px
     display: flex
@@ -13,15 +13,24 @@
     align-items: flex-start
 
   &__img
-    height: 140px
     margin-bottom: 10px
+    max-height: 140px
 
   &__description
     margin-bottom: 10px
     font-weight: 600
 
+    p
+      margin-bottom: 0
+
   &__link
     color: $orange
+
+
+@media (max-width: 967px)
+  .partners
+    &__block
+      flex-basis: 50%
 
 @media (max-width: 767px)
   .partners
